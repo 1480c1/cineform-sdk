@@ -1,6 +1,6 @@
 # CMakeLists.txt
 cmake_minimum_required (VERSION 3.5.1)
-project (CineFormSDK)
+project (CineFormSDK VERSION 10.0.2 LANGUAGES C CXX)
 
 # Build settings
 option(BUILD_LIBS "Build codec libraries" ON)
@@ -113,7 +113,6 @@ endif (BUILD_TOOLS)
 
 
 # pkg-config integration
-set(PROJECT_VERSION "10.0.2")
 set(LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)")
 set(EXEC_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX} CACHE PATH "Installation prefix for executables and object code libraries" FORCE)
 set(BIN_INSTALL_DIR ${EXEC_INSTALL_PREFIX}/bin CACHE PATH "Installation prefix for user executables" FORCE)
