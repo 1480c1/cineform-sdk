@@ -19,6 +19,7 @@
 *
 */
 
+#include <emmintrin.h> // Include support for SSE2 intrinsics
 
 #include "stdafx.h"
 

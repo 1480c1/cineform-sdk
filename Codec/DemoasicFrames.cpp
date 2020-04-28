@@ -38,7 +38,6 @@
 #else
 #include <sys/stat.h>		// for _mkdir()
 #include <unistd.h>			// for usleep()
-#include <xmmintrin.h>
 #endif
 
 #include "../Common/AVIExtendedHeader.h"
